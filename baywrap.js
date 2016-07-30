@@ -1,7 +1,10 @@
-"user strict;"
-
+"use strict;"
+ 
 $(document).ready(function() {
- 
-  $("#owl-example").owlCarousel();
- 
+ $("#owlexample").owlCarousel({
+     navigation: true,
+     slideSpeed: 300,
+     paginationSpeed: 400,
+     singleItem:true
+ });
 });
